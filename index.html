@@ -1,0 +1,104 @@
+// index.html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Storybook Portfolio</title>
+  <link href="https://fonts.googleapis.com/css2?family=EB+Garamond&family=Pacifico&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">  
+</head>
+<body>
+  <header>
+  <h1>My Storybook</h1>
+
+  <div class="nav-wrapper">
+    <nav>
+      <ul>
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </div>
+
+  <button id="theme-toggle">🌙</button>
+</header>
+
+
+  <section id="about" class="chapter reveal">
+    <img src="myAvatar.jpeg" alt="Cute Avatar">
+    <h2>Chapter 1: About Me</h2>
+   <p>
+  Hello! I'm a passionate designer and curious explorer of the digital world.
+  I turn ideas into beautiful and responsive experiences with a touch of magic ✨
+  <br><br>
+  I'm deeply interested in both design and tech — from creating visually engaging UIs to understanding how systems work. I love learning new tools, solving problems creatively, and continuously exploring innovative ways to build delightful digital experiences.
+   </p>
+  </section>
+
+  <section id="skills" class="chapter reveal">
+    <img src="bookcover.png" alt="Magic Book">
+    <h2>Chapter 2: Skills</h2>
+   <p id="skills-preview">
+  From sketching ideas on paper to bringing them to life on screen, my journey blends creativity with technology.  
+  I started with core languages like <strong>Java</strong> and <strong>Python</strong>, and gradually ventured into the world of <strong>Web Development</strong> — building responsive layouts with <strong>HTML, CSS, Bootstrap, JavaScript</strong> and frameworks like <strong>Angular</strong>.
+  <span id="dots">...</span>
+  <span id="more" style="display: none;">
+    <br><br>
+    My passion for aesthetics led me into the field of <strong>UI/UX Design</strong>, where I now use tools like <strong>Figma</strong> to craft intuitive and visually appealing user experiences. I love experimenting with interactions, animations, and layout flows that tell a story.
+
+    <br><br>
+    To stay future-ready, I’ve begun exploring the fascinating world of <strong>Artificial Intelligence and Machine Learning</strong>, developing a foundational understanding of data science and smart systems.
+
+    <br><br>
+    Beyond tech, I believe soft skills make a real difference — and I'm proud of my <strong>confidence, teamwork, adaptability, leadership, communication</strong> and an ever-curious mind that thrives on <strong>continuous learning</strong>.
+
+    <br><br>
+    Whether it’s solving a logic puzzle, designing a wireframe, or leading a team presentation — I give it my all with creativity, empathy, and a touch of magic ✨
+  </span>
+</p>
+<button onclick="toggleReadMore()" id="readMoreBtn">Continue Reading</button>
+</section>
+
+  <section id="projects" class="chapter reveal">
+  <img src="Projects.png" alt="Project Shelf">
+  <h2>Chapter 3: Projects</h2>
+  <p>Here are some of my proud creations. Click to explore them live!</p>
+
+  <div class="project-grid">
+    <a href="http://github.com/ParnikaRajguru/My-first-Project" target="_blank" class="project-box">AI/ML Face Recognition</a>
+    <a href="https://amazonclonebyparnika.netlify.app/" target="_blank" class="project-box">Amazon Clone Static</a>
+    <a href="https://currencyconverter-byparnika.netlify.app/" target="_blank" class="project-box">Currency Converter</a>
+    <a href="https://parnikarg-portfolio.netlify.app/" target="_blank" class="project-box">Portfolio</a>
+  </div>
+</section>
+
+
+  <section id="contact" class="chapter reveal">
+  <img src="Contact.png" alt="Enchanted Letter">
+  <h2>Chapter 4: Contact Me</h2>
+  <p>
+    I'm always open to new opportunities, collaborations, or a friendly conversation!
+    Feel free to connect with me through the platforms below:
+  </p>
+
+  <div style="margin-top: 25px; font-size: 18px; line-height: 1.8;">
+    <p><strong>Email:</strong> <a href="parnikahrajguru@gmail.com" style="color: #8b008b;">parnikahrajguru@gmail.com</a></p>
+    <p><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/parnika-rajguru-4a7a36259/" target="_blank" style="color: #8b008b;">LinkedIn/parnikarajguru</a></p>
+    <p><strong>GitHub:</strong> <a href="https://github.com/ParnikaRajguru" target="_blank" style="color: #8b008b;">GitHub/parnikarajguru</a></p>
+  </div>
+</section>
+
+
+  <footer>
+    &copy; 2025 Parnika's Storybook. Designed with &#10084; and fairy dust.
+  </footer>
+
+   <div class="floating-hearts-container"></div>
+
+<script src="script.js"></script>
+</body>
+
+</html>
